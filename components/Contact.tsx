@@ -29,7 +29,7 @@ export default function Contact() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json", // 🔥 important
+          "Content-Type": "application/json", // important
         },
         body: JSON.stringify(form),
       });
