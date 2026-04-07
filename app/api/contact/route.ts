@@ -2,7 +2,7 @@ import { Resend } from "resend";
 
 export async function POST(req: Request) {
   try {
-    // 🔒 Ensure API key exists
+    // Ensure API key exists
     const apiKey = process.env.RESEND_API_KEY;
     if (!apiKey) {
       return Response.json(
@@ -11,11 +11,11 @@ export async function POST(req: Request) {
       );
     }
 
-    // 📥 Parse request body
+    // Parse request body
     const body = await req.json();
     const { name, email, message } = body;
 
-    // ✅ Basic validation
+    // Basic validation
     if (!name || !email || !message) {
       return Response.json(
         { error: "All fields are required" },
@@ -23,16 +23,16 @@ export async function POST(req: Request) {
       );
     }
 
-    // ✉️ Initialize Resend (runtime only)
+    // Initialize Resend (runtime only)
     const resend = new Resend(apiKey);
 
-    // 🧼 Sanitize message (basic)
+    // Sanitize message (basic)
     const cleanMessage = message
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/\n/g, "<br>");
 
-    // 📤 Send email
+    // Send email
     await resend.emails.send({
       from: "Portfolio <onboarding@resend.dev>", // change after domain verification
       to: ["naimurrahman79127@gmail.com"],
