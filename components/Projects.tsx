@@ -10,6 +10,11 @@ const projects = [
     link: "https://nextjs-ecommerce-site-one.vercel.app/"
   
   },
+  {
+    title: "Dashboard",
+    tech: "React + Next.js",
+    link: "https://dashboard-beige-two-92.vercel.app/dashboard"
+  },
 ];
 
 export default function Projects() {
