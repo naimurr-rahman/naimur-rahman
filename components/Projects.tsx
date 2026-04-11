@@ -15,6 +15,11 @@ const projects = [
     tech: "React + Next.js",
     link: "https://dashboard-beige-two-92.vercel.app/dashboard"
   },
+  {
+    title: "Landing Page",
+    tech: "CSS + JavaScript",
+    link: "https://spontaneous-bunny-c320c1.netlify.app/"
+  }
 ];
 
 export default function Projects() {
