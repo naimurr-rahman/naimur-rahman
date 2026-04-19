@@ -1,14 +1,16 @@
 import Glass from "./Glass";
 
 const projects = [
-  { title: "Food Blog", 
+  {
+    title: "Food Blog",
     tech: "React + Next.js",
     link: "https://naimurr-rahman.github.io/website_design_for_food_blog/"
   },
-  { title: "Ecommerce", 
+  {
+    title: "Ecommerce",
     tech: "React + Next.js",
     link: "https://nextjs-ecommerce-site-one.vercel.app/"
-  
+
   },
   {
     title: "Dashboard",
@@ -19,6 +21,11 @@ const projects = [
     title: "Landing Page",
     tech: "CSS + JavaScript",
     link: "https://spontaneous-bunny-c320c1.netlify.app/"
+  },
+  {
+    title: "AI Dashboard",
+    tech: "Next.js + SupaBase",
+    link: "https://ai-dashboard-4ssy.vercel.app/"
   }
 ];
 
