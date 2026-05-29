@@ -26,6 +26,11 @@ const projects = [
     title: "AI Dashboard",
     tech: "Next.js + SupaBase",
     link: "https://ai-dashboard-4ssy.vercel.app/"
+  },
+  {
+    title: "Clario SaaS Template",
+    tech: "CSS + Javascript",
+    link: "https://clario-saas.netlify.app/"
   }
 ];
 
