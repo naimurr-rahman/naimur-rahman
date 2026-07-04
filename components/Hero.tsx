@@ -14,7 +14,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
         className="text-5xl md:text-7xl font-bold text-gradient"
       >
-        Frontend Developer
+        Full Stack Developer
       </motion.h1>
 
       <motion.p
@@ -23,7 +23,8 @@ export default function Hero() {
         transition={{ delay: 0.3 }}
         className="text-gray-400 mt-4 max-w-xl text-lg"
       >
-        Fast, responsive, and visually stunning web applications with React and Next.js. Clean code, modern design, and seamless user experience.
+        Fast, responsive, and visually stunning web applications with React and
+        Next.js. Clean code, modern design, and seamless user experience.
       </motion.p>
 
       <motion.div
@@ -34,16 +35,15 @@ export default function Hero() {
       >
         <a href="#projects">
           <button className="px-6 py-3 rounded-full bg-purple-500 text-white hover:scale-105 transition cursor-pointer">
-          View Work
-        </button>
+            View Work
+          </button>
         </a>
-        
+
         <a href="#contact">
           <button className="px-6 py-3 rounded-full border border-white/20 hover:bg-white/10 transition cursor-pointer">
-          Contact Me
-        </button>
+            Contact Me
+          </button>
         </a>
-        
       </motion.div>
     </section>
   );

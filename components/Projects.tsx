@@ -1,42 +1,42 @@
-import Glass from "./Glass";
-
 const projects = [
   {
     title: "Food Blog",
     tech: "React + Next.js",
-    link: "https://naimurr-rahman.github.io/website_design_for_food_blog/"
+    link: "https://naimurr-rahman.github.io/website_design_for_food_blog/",
   },
   {
     title: "Ecommerce",
     tech: "React + Next.js",
-    link: "https://nextjs-ecommerce-site-one.vercel.app/"
-
+    link: "https://nextjs-ecommerce-site-one.vercel.app/",
   },
   {
     title: "Dashboard",
     tech: "React + Next.js",
-    link: "https://dashboard-beige-two-92.vercel.app/dashboard"
+    link: "https://dashboard-beige-two-92.vercel.app/dashboard",
   },
   {
     title: "Landing Page",
     tech: "CSS + JavaScript",
-    link: "https://spontaneous-bunny-c320c1.netlify.app/"
+    link: "https://spontaneous-bunny-c320c1.netlify.app/",
   },
   {
     title: "AI Dashboard",
     tech: "Next.js + SupaBase",
-    link: "https://ai-dashboard-4ssy.vercel.app/"
+    link: "https://ai-dashboard-4ssy.vercel.app/",
   },
   {
     title: "Clario SaaS Template",
     tech: "CSS + Javascript",
-    link: "https://clario-saas.netlify.app/"
-  }
+    link: "https://clario-saas.netlify.app/",
+  },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-5xl mx-auto px-6 py-24 text-center justify-center">
+    <section
+      id="projects"
+      className="max-w-5xl mx-auto px-6 py-24 text-center justify-center"
+    >
       <h2 className="text-3xl font-bold mb-8 text-gradient">Projects</h2>
 
       <div className="grid md:grid-cols-2 gap-6">

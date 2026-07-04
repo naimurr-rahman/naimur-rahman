@@ -7,19 +7,15 @@ export default function About() {
         <div className="p-8 text-center text-lg">
           <h2 className="text-3xl font-bold mb-4 text-gradient">About Me</h2>
           <p className="text-gray-400 leading-relaxed">
-            I’m a frontend developer specializing in React, Next.js, TypeScript, and
-            Tailwind CSS, focused on crafting fast, scalable, and visually
-            refined web applications. I translate complex ideas and design
-            systems into clean, maintainable component architectures with a
-            strong emphasis on performance, accessibility, and responsiveness
-            across all devices. I care deeply about user experience—every
-            interaction, animation, and layout is intentional and optimized for
-            clarity and usability. My workflow prioritizes code quality,
-            reusability, and consistency, allowing me to build interfaces that
-            are not only visually polished but also easy to scale and maintain.
-            From pixel-perfect implementation to performance tuning, I aim to
-            deliver smooth, reliable, and engaging digital experiences that feel
-            effortless for users.
+            I’m a full-stack developer specializing in building modern,
+            high-performance, and user-focused web applications. I create clean,
+            scalable solutions using technologies like Next.js, React,
+            TypeScript, and Tailwind CSS, with a strong focus on responsive
+            design, smooth user experiences, and maintainable code. I’m
+            passionate about crafting premium digital products, from polished
+            frontend interfaces to robust full-stack applications. Every project
+            I build is designed with attention to performance, usability, code
+            quality, and modern development standards.
           </p>
         </div>
       </Glass>
